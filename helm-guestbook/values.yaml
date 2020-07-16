@@ -5,8 +5,8 @@
 replicaCount: 5
 
 image:
-  repository: nginx
-  tag: 1.19
+  repository: argoproj/rollouts-demo
+  tag: blue
   pullPolicy: IfNotPresent
 
 service:
